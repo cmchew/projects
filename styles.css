@@ -9,7 +9,7 @@ body {
 
 header {
   padding: 2rem;
-  background-color: #f4f4f4;
+  background-color: thistle;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #f4f4f4;
+  background-color: thistle;
   margin-top: 2rem;
 }
 
