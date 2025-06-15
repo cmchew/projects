@@ -23,6 +23,10 @@ nav a {
   color: rebeccapurple;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding: 2rem;
   max-width: 800px;
@@ -43,4 +47,25 @@ footer {
   color: white;
   border-radius: 4px;
   text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: indigo;
+  outline: none;
+}
+
+/* Optional: mobile responsive tweaks */
+@media (max-width: 600px) {
+  header, main, footer {
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
